@@ -77,18 +77,9 @@ Then open `http://localhost:7000`.
 
 ## Included submission materials
 
-- `report/Choi_Heeju_MD6329_Project_Report.pdf`: final report with the two-page
-  course cover form removed
 - `presentation/`: the 10-minute Lectrace presentation
 - `reports/`: the three figures and three result tables required by Lectrace
 
 The project website, website build scripts, academic poster, poster source, raw
-data, processed molecule-level data, model checkpoints, and the course cover
-form are intentionally excluded.
-
-## Privacy check before publication
-
-The two-page course cover form is not included. The report body still identifies
-the author by name and student ID on its first page. Confirm that those two
-fields are appropriate for public release before changing this repository from
-private to public.
+data, processed molecule-level data, model checkpoints, and project report are
+intentionally excluded.
