@@ -1,0 +1,14 @@
+seed: 2026
+
+fractions:
+  train: 0.80
+  validation: 0.10
+  test: 0.10
+
+scaffold:
+  include_chirality: false
+
+similarity_cluster:
+  algorithm: butina
+  similarity_threshold: 0.60
+  distance_cutoff: 0.40

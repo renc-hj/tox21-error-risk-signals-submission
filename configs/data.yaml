@@ -1,0 +1,18 @@
+source_url: https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/tox21.csv.gz
+expected_raw_rows: 7831
+smiles_column: smiles
+tasks:
+  - NR-AR
+  - NR-AR-LBD
+  - NR-AhR
+  - NR-Aromatase
+  - NR-ER
+  - NR-ER-LBD
+  - NR-PPAR-gamma
+  - SR-ARE
+  - SR-ATAD5
+  - SR-HSE
+  - SR-MMP
+  - SR-p53
+fingerprint_radius: 2
+fingerprint_bits: 1024

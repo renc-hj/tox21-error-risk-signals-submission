@@ -1,0 +1,7 @@
+seed: 2026
+c_values: [0.01, 0.1, 1.0, 10.0]
+solver: liblinear
+penalty: l2
+class_weight: balanced
+max_iter: 5000
+selection_metric: auroc

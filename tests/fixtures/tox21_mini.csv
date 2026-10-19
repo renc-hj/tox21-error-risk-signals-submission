@@ -1,0 +1,9 @@
+smiles,NR-AR,NR-AR-LBD,NR-AhR,NR-Aromatase,NR-ER,NR-ER-LBD,NR-PPAR-gamma,SR-ARE,SR-ATAD5,SR-HSE,SR-MMP,SR-p53
+OCC,1,,,,,,,,,,,
+CCO,,0,,,,,,,,,,
+CCO,,0,,,,,,,,,,
+CCN,0,1,,,,,,,,,,
+CCN,1,1,,,,,,,,,,
+CC(=O)[O-].[Na+],0,,,,,,,,,,,
+not-a-smiles,1,,,,,,,,,,,
+,0,,,,,,,,,,,
