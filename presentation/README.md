@@ -20,7 +20,7 @@ with `@inspect` appear in the variable panel.
 
 ## Selected execution states
 
-1. Group-preserving molecular splits and the realised Figure 2 comparison.
+1. Group-preserving molecular splits and the realised Figure 1 comparison.
 2. The three-layer GCN's graph-to-12-endpoint shape transition.
 3. Single-pass uncertainty versus 50-pass MC Dropout mutual information.
 4. Full error-risk ranking and the paired within-similarity-bin comparison.

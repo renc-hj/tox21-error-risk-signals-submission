@@ -74,7 +74,7 @@ def main() -> None:
     model_performance = load_model_performance()  # @inspect model_performance @stepover
     image(str(FIGURES / "model_performance_by_split.png"), width=850)
     text(
-        "**Report Figure 2.** GCN AUROC was **0.789, 0.724, and 0.802** for "
+        "**Report Figure 1.** GCN AUROC was **0.789, 0.724, and 0.802** for "
         "random, scaffold, and similarity-cluster. GCN AUROC exceeded LR in all "
         "splits, while LR AUPRC was higher for random and scaffold and nearly "
         "equal for similarity-cluster. Performance showed no consistent split ordering. "
@@ -121,7 +121,7 @@ def main() -> None:
     )
     image(str(FIGURES / "similarity_error_uncertainty.png"), width=850)
     text(
-        "**Report Figure 3.** Structural distance had almost no mean relationship "
+        "**Report Figure 2.** Structural distance had almost no mean relationship "
         "with endpoint BCE or MC Dropout MI. Similarity bins showed local variation "
         "but no stable monotonic pattern across splits."
     )
@@ -141,13 +141,13 @@ def main() -> None:
     )
     image(str(FIGURES / "error_risk_signal_comparison.png"), width=850)
     text(
-        "**Report Figure 4.** Error-detection AUROC for single-pass versus MI was "
+        "**Report Figure 3.** Error-detection AUROC for single-pass versus MI was "
         "**0.778 vs 0.669** (random), **0.708 vs 0.630** (scaffold), and "
         "**0.787 vs 0.697** (similarity-cluster). Bars are means across 36 "
         "endpoint–seed cells; error bars are SD, not confidence intervals."
     )
     text(
-        "**Report Table 6.** Within broad similarity bins, cells favouring "
+        "**Report Table 5.** Within broad similarity bins, cells favouring "
         "single-pass were **95.1%**, **89.5%**, and **90.6%**. Mean AUROC "
         "differences were 0.118, 0.066, and 0.090; every 95% bootstrap confidence "
         "interval excluded zero."

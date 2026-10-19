@@ -174,10 +174,10 @@ def test_built_traces_preserve_report_results_and_scope(tmp_path: Path) -> None:
         "**Motivation.**",
         "**Approach.**",
         "prediction errors can be detected before deployment",
+        "Report Figure 1",
         "Report Figure 2",
         "Report Figure 3",
-        "Report Figure 4",
-        "Report Table 6",
+        "Report Table 5",
         "threshold-aligned",
         "does not establish clinical toxicity or drug safety",
         "one fixed partition",
@@ -192,6 +192,8 @@ def test_built_traces_preserve_report_results_and_scope(tmp_path: Path) -> None:
         "would not replace either one",
     ):
         assert phrase in narrative
+    for stale_reference in ("Report Figure 4", "Report Table 6"):
+        assert stale_reference not in narrative
     for value in (
         "0.789",
         "0.724",
